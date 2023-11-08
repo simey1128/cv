@@ -5,7 +5,7 @@ const templateData = require("./metadata/metadata");
 const getSlug = require("speakingurl");
 const dayjs = require("dayjs");
 const repoName = require("git-repo-name");
-const username = require("simey");
+const username = require("git-username");
 const buildPdf = require("./utils/pdf.js");
 
 const srcDir = __dirname;
